@@ -11,16 +11,7 @@
 </head>
 
 <body>
-
-  {{-- <a href=""
-    class="border-2 border-[#D5FD05] text-[#D5FD05] py-2 px-4 rounded-lg hover:bg-[#D5FD05] hover:text-[#08323D]">Log
-    In / Sign Up</a>
-  <a href="" class="border-2 border-[#D5FD05] bg-[#D5FD05] text-[#08323D] py-2 px-4 rounded-lg">List Your
-    Car</a>
- --}}
-
-
-  <header class="flex flex-wrap w-full py-4 text-sm bg-white sm:justify-start sm:flex-nowrap dark:bg-neutral-800">
+  <header class="flex flex-wrap w-full py-4 text-sm bg-white sm:justify-start sm:flex-nowrap dark:bg-[#08323D]">
     <nav class="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between"
       aria-label="Global">
       <a class="flex-none text-xl font-semibold sm:order-1 dark:text-white" href="#"><img src="/img/logo.png"
@@ -29,29 +20,20 @@
       <div id="navbar-alignment"
         class="hidden overflow-hidden transition-all duration-300 hs-collapse basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2">
         <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
-          <a class="font-medium text-blue-500" href="#" aria-current="page">Book a Car</a>
-          <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
+          <a class="uppercase font-light text-[#D5FD05]" href="#" aria-current="page">Book a Car</a>
+          <a class="uppercase text-gray font-light-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
             href="#">Pickup Locations</a>
-          <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
+          <a class="uppercase text-gray font-light-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
             href="#">How it Works</a>
-          <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
+          <a class="uppercase text-gray font-light-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
             href="#">Support</a>
         </div>
       </div>
       <div class="flex items-center sm:order-3 gap-x-2">
-
-        {{-- <button type="button"
-          class="inline-flex items-center px-3 py-2 text-sm font-medium text-gray-800 bg-white border border-gray-200 rounded-lg shadow-sm gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800">
-          Button
-        </button> --}}
-
         <div>
           <a href=""
-            class="border-2 inline-flex  border-[#D5FD05] text-[#D5FD05] py-2 px-4 rounded-lg hover:bg-[#D5FD05] hover:text-[#08323D]">Log
+            class="font-bold inline-flex border-2 border-[#D5FD05] bg-[#D5FD05] text-[#08323D] py-2 px-4 rounded-lg">Log
             In / Sign Up</a>
-          <a href=""
-            class=" inline-flex border-2 border-[#D5FD05] bg-[#D5FD05] text-[#08323D] py-2 px-4 rounded-lg">List Your
-            Car</a>
         </div>
 
         <button type="button"
@@ -553,14 +535,49 @@
         </div>
       </div>
     </section>
-
-
   </main>
 
 
-  {{-- <div>
-    <div class="w-32 h-32 font-bold text-white bg-red-300">1</div>
-  </div> --}}
+  <footer class="py-32 bg-[#08323D]">
+    <div class="flex justify-center">
+      <div class="w-10/12">
+        <div class="flex gap-4">
+          <div class="flex flex-col font-light leading-10 basis-3/12">
+            <a href="" class="text-slate-300">Manage Booking</a>
+            <a href="" class="text-slate-300">Pickup Locations</a>
+            <a href="" class="text-slate-300">Payments</a>
+            <a href="" class="text-slate-300">Terms & Conditions</a>
+            <a href="" class="text-slate-300">Privacy Policy</a>
+          </div>
+          <div class="flex flex-col font-light leading-10 basis-2/12">
+            <a href="" class="text-slate-300">Blog</a>
+            <a href="" class="text-slate-300">Careers</a>
+            <a href="" class="text-slate-300">Joba</a>
+            <a href="" class="text-slate-300">Gallery</a>
+          </div>
+          <div class="flex flex-col font-light leading-10 basis-2/12">
+            <a href="" class="text-slate-300">Support</a>
+            <a href="" class="text-slate-300">Whatsapp</a>
+            <a href="" class="text-slate-300">Instagram</a>
+            <a href="" class="text-slate-300">Call Center</a>
+          </div>
+          <div class="flex flex-col font-light basis-6/12">
+            <h3 class="mb-2 text-2xl font-bold text-white">Our news letter</h3>
+            <p class="text-slate-300">Be the first one to know about discounts, offers and events. Unsubscribe whenever
+              you like.</p>
+            <div class="relative mt-8">
+              <form action="">
+                <iconify-icon icon="mage:email" class="absolute text-2xl left-5 top-4"></iconify-icon>
+                <input type="email" name="email" id="email" placeholder="Enter Email"
+                  class="w-full p-4 font-semibold text-black rounded-full ps-14 placeholder:font-light">
+                <button class="text-white rounded-full bg-[#08323D] px-10 py-2 absolute right-2 top-2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   <script src="/node_modules/preline/dist/preline.js"></script>
