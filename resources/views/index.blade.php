@@ -17,18 +17,6 @@
       <a class="flex-none text-xl font-semibold sm:order-1 dark:text-white" href="#"><img src="/img/logo.png"
           alt="Logo"></a>
 
-      <div id="navbar-alignment"
-        class="hidden overflow-hidden transition-all duration-300 hs-collapse basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2">
-        <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
-          <a class="uppercase font-light text-[#D5FD05]" href="#" aria-current="page">Book a Car</a>
-          <a class="uppercase text-gray font-light-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
-            href="#">Pickup Locations</a>
-          <a class="uppercase text-gray font-light-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
-            href="#">How it Works</a>
-          <a class="uppercase text-gray font-light-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
-            href="#">Support</a>
-        </div>
-      </div>
       <div class="flex items-center sm:order-3 gap-x-2">
         <div>
           <a href=""
@@ -54,6 +42,20 @@
           </svg>
         </button>
       </div>
+
+      <div id="navbar-alignment"
+        class="hidden overflow-hidden transition-all duration-300 hs-collapse basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2">
+        <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
+          <a class="uppercase font-light text-[#D5FD05]" href="#" aria-current="page">Book a Car</a>
+          <a class="uppercase text-gray font-light-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
+            href="#">Pickup Locations</a>
+          <a class="uppercase text-gray font-light-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
+            href="#">How it Works</a>
+          <a class="uppercase text-gray font-light-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
+            href="#">Support</a>
+        </div>
+      </div>
+
     </nav>
   </header>
 
